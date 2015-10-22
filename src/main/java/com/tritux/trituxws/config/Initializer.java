@@ -5,6 +5,14 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import com.tritux.trituxws.config.DatabaseConfig;
 
+/**
+ * Initializer class is equivelent of web.xml file
+ * 
+ * 
+ * @author Brahim Mahjoub (brahimmahjoub@yahoo.fr)
+ *
+ */
+
 @Order(1)
 public class Initializer extends
 		AbstractAnnotationConfigDispatcherServletInitializer {
